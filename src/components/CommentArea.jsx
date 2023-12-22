@@ -37,7 +37,7 @@ class CommentArea extends React.Component {
     render() {
         console.log(this.state.comments)
         return (
-            <div>
+            <div className='border border-dark-subtle my-3'>
                 <CommentList commenti={this.state.comments} />
                 {/* <AddComment /> */}
             </div>

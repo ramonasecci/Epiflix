@@ -89,3 +89,11 @@ footer {
   scrollbar-width: thin;
   scrollbar-color: #888 #c7c7c7 /* thumb color track color */
 }
+
+.bg-delete {
+  background-color: #22201F;
+}
+
+.bg-delete:hover {
+  background-color: #22201F;
+}
