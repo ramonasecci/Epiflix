@@ -27,7 +27,8 @@ footer {
 
 .cost-h2{
   color: #f5f5f1;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  margin: 25px 0px 15px;  
 }
 
 .cost-comments{
@@ -87,7 +88,7 @@ footer {
 
 .img-size{
   width: 222px;
-  height: 170px;
+  height: 300px;
 }
 
 .custom-scroll{

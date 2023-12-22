@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import SingleMovie from './SingleMovie';
-import Carousel from 'react-bootstrap/Carousel';
 
 class MovieList extends React.Component {
     state = {
