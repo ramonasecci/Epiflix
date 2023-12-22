@@ -1,6 +1,6 @@
 import React from 'react'
 import CommentList from './CommentList'
-// import AddComment from './AddComment'
+import AddComment from './AddComment'
 
 
 class CommentArea extends React.Component {
@@ -39,7 +39,7 @@ class CommentArea extends React.Component {
         return (
             <div className='border border-dark-subtle my-3'>
                 <CommentList commenti={this.state.comments} />
-                {/* <AddComment /> */}
+                <AddComment asin={this.props.id}/> 
             </div>
         )
     }

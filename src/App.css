@@ -30,6 +30,11 @@ footer {
   font-size: 1.2em;
 }
 
+.cost-comments{
+  color: #f5f5f1;
+  text-decoration: underline;
+}
+
 .footer-icon {
   font-size: 1.3em;
   margin-left: 1%;
