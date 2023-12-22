@@ -2,7 +2,7 @@ import { Row, Col } from 'react-bootstrap'
 
 const CommentList = (props) => {
     return (
-        <Row>
+        <Row className="">
             {props.commenti.length === 0 ? (
                 <Col>
                     <p className='text-white'>Non ci sono commenti</p>
@@ -11,7 +11,7 @@ const CommentList = (props) => {
                 props.commenti.map((commento) => (
                     // <SingleComment commento = {commento}/>
                     <Col>
-                        <p className='text-white'>{commento.comment}</p>
+                        <p className='text-white'>Recensione: {commento.comment}</p>
                     </Col>
                 ))
             )}
