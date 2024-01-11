@@ -15,6 +15,7 @@ class SingleMovie extends React.Component {
                     <img src={this.props.film.Poster} className='img-size' />
                 </div>
                 {this.state.selected && <CommentArea id={this.props.film.imdbID} />}
+                <button className='button btn-outline-light'>Details</button>
             </Col>
         )
     }
